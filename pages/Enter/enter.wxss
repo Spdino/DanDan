@@ -26,3 +26,19 @@ page {
   background-color: #57a3f3;
   border-color: #57a3f3;
 }
+.textShow {
+  margin-top:40rpx;
+  padding-left:20rpx;
+  border-left: 3px solid #57a3f3;
+}
+image{
+  width:100%;
+  height:100%;
+}
+.total {
+  margin-top:100rpx;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: right;
+  padding-right:100rpx;
+}

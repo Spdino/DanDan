@@ -1,0 +1,30 @@
+<!--pages/mine/mine.wxml-->
+<view class='container'>
+    <view>
+    <swiper autoplay="true" duration="500">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}"  />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>  
+  <view class='textShow'>
+    <text>亲爱老婆请录入你的产品:</text>
+  </view>
+  <view class='inputWrap'>
+    <input placeholder='请输入产品名称' bindinput='PnameInput'>{{productName}}</input>
+  </view>
+  <view class='inputWrap'>
+    <input placeholder='请输入产品金额' bindinput='PpriceInput'>{{productPrice}}</input>
+  </view>
+  <view class='inputWrap'>
+    <input placeholder='请输入产品数量' bindinput='PnumInput'>{{productNum}}</input>
+  </view>
+  <view class='total'>
+    <text>产品总金额:{{total}}</text>
+  </view>
+  <view class='btnWrap'>
+    <button bindtap='submit' class='submit'>录入</button>
+  </view>
+</view>

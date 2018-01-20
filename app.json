@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/mine/mine",
+    "pages/Enter/enter",
     "pages/index/index",
     "pages/logs/logs",
     "pages/query/query"
@@ -19,7 +19,7 @@
       {
         "selectedIconPath": "images/icons/SM.png",
         "iconPath": "images/icons/M.png",
-        "pagePath": "pages/mine/mine",
+        "pagePath": "pages/Enter/enter",
         "text": "录入"
       },
       {
