@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/query/query"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "全部产品",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ea986c",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "images/icons/SM.png",
+        "iconPath": "images/icons/M.png",
+        "pagePath": "pages/mine/mine",
+        "text": "录入"
+      },
+      {
+        "selectedIconPath": "images/icons/SCP.png",
+        "iconPath": "images/icons/CP.png",
+        "pagePath": "pages/index/index",
+        "text": "产品"
+      },
+      {
+        "selectedIconPath": "images/icons/SJL.png",
+        "iconPath": "images/icons/JL.png",
+        "pagePath": "pages/logs/logs",
+        "text": "记录"
+      },
+      {
+        "selectedIconPath": "images/icons/SCX.png",
+        "iconPath": "images/icons/CX.png",
+        "pagePath": "pages/query/query",
+        "text": "订单"
+      }
+    ]
+  },
+  "debug": true
+}

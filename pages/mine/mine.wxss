@@ -1,0 +1,28 @@
+/* pages/mine/mine.wxss */
+
+page {
+  overflow: hidden;
+  background: #f8f8f9;
+}
+
+.inputWrap {
+  margin-top: 30rpx;
+}
+
+.inputWrap input {
+  text-align: center;
+  background: #fff;
+  font-weight: 200;
+  padding: 10rpx;
+  margin-top: 20rpx;
+}
+
+.submit {
+  position: absolute;
+  bottom: 60rpx;
+  left: 200rpx;
+  right: 200rpx;
+  color: #fff;
+  background-color: #57a3f3;
+  border-color: #57a3f3;
+}

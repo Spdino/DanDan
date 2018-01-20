@@ -1,0 +1,12 @@
+<!--pages/mine/mine.wxml-->
+<view class='container'>
+  <view class='inputWrap'>
+    <input placeholder='请输入产品名称' bindinput='PnameInput'>{{productName}}</input>
+  </view>
+  <view class='inputWrap'>
+    <input placeholder='请输入产品金额' bindinput='PpriceInput'>{{productPrice}}</input>
+  </view>
+  <view class='btnWrap'>
+  <button bindtap='submit' class='submit'>录入</button>
+  </view>
+</view>
