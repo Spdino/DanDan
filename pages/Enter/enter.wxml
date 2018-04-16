@@ -10,6 +10,7 @@
     </swiper>
   </view>  
   <view class='textShow'>
+  <text>test</text>
     <text>亲爱老婆请录入你的产品:</text>
   </view>
   <view class='inputWrap'>
